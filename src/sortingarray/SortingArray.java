@@ -31,7 +31,7 @@ public class SortingArray {
     
     private void run() {
         Scanner reader = new Scanner(System.in);
-        System.out.print("Set size af the array: ");
+        System.out.print("Set size of the array: ");
         int size = reader.nextInt();
         int array[] = new int[size];
         for(int i = 0; i < size; i++) {
